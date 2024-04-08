@@ -1,7 +1,9 @@
 import { BaudRate, DataBits, StopBits, Parity, FlowControl } from "../enums/CommunicationSettings.enum";
 import { PortType } from "../enums/PortType.enum";
 
-interface PortSetting { portType: PortType; }
+interface PortSetting {
+    portType: PortType;
+}
 
 export interface EthernetPortSetting extends PortSetting {
     ipAddress: string;
