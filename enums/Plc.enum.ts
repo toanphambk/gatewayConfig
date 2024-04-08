@@ -1,5 +1,5 @@
 
-enum MitsuPlcRegister {
+export enum MitsuPlcRegister {
     X = 1,
     Y = 2,
     M = 3,
@@ -13,8 +13,7 @@ enum MitsuPlcRegister {
     Z = 11,
     ZR = 12,
 };
-
-enum SiemenPlcRegister {
+export enum SiemenPlcRegister {
     I = 21,
     Q = 22,
     M = 23,
@@ -26,13 +25,13 @@ enum SiemenPlcRegister {
 
 export type PlcRegister = MitsuPlcRegister | SiemenPlcRegister;
 
-enum MitsuPlcModel {
+export enum MitsuPlcModel {
     Fx3 = 1,
     Fx5 = 2,
     Q_CPU = 3,
 };
 
-enum SiemenPLCModel {
+export enum SiemenPLCModel {
     S7_200Smart = 11,
     S7_200 = 12,
     S7_300 = 13,

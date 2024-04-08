@@ -9,6 +9,7 @@ export interface EthernetPortSetting extends PortSetting {
     ipAddress: string;
     subnetMask: string;
     defaultGateway?: string;
+    port: number;
 }
 
 export interface SerialPortSetting extends PortSetting {

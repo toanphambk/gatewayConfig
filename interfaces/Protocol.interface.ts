@@ -7,10 +7,10 @@ interface Protocol {
     config: ProtocolConfig;
 }
 
-export interface EthernetProtocol extends Protocol {
+export interface EthernetProtocolSetting extends Protocol {
     slaveDevices: EthernetSlaveDevice[];
 }
 
-export interface SerialProtocol extends Protocol {
+export interface SerialProtocolSetting extends Protocol {
     slaveDevices: SerialSlaveDevice[];
 }

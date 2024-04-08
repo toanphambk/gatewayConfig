@@ -1,9 +1,9 @@
-enum SerialProtocol {
+export enum SerialProtocol {
     ModbusRTU = 1,
     MCProtocol = 2
 }
 
-enum EthernetProtocol {
+export enum EthernetProtocol {
     ModbusTCP = 11,
     S7Protocol = 12,
     MCProtocol = 13

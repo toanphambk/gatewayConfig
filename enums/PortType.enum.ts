@@ -5,7 +5,7 @@ export enum SerialPortType {
 }
 
 export enum EthernetPortType {
-    MonitorConfiguration = 11,
+    Monitor = 11,
     Communication = 12
 }
 
