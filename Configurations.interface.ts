@@ -40,7 +40,7 @@ const iotConfig: IIoTDeviceConfig = {
                     {
                         name: 'PLC1',
                         deviceAddress: 2,
-                        description?: 'PLC1 Description',
+                        description: 'PLC1 Description',
                         plcModel: MitsuPlcModel.Q_CPU,
                         scanRate: 1000,
                         IO: [
