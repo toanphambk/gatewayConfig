@@ -1,4 +1,5 @@
 import { PlcModel, PlcRegister } from "../enums/Plc.enum";
+import { ConversionType } from "../enums/Conversion.enum";
 
 export interface SlaveDevice {
     name: string;
@@ -14,6 +15,7 @@ export interface HardwareIO {
     register: PlcRegister;
     startAddress: number;
     length: number;
+    conversion: ConversionType
 }
 
 export interface SerialSlaveDevice extends SlaveDevice {

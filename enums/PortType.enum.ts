@@ -5,8 +5,8 @@ export enum SerialPortType {
 }
 
 export enum EthernetPortType {
-    Monitor = 11,
-    Communication = 12
+    Monitor = 11, //use for monitoring only
+    Communication = 12 // use for communication
 }
 
 export type PortType = SerialPortType | EthernetPortType;

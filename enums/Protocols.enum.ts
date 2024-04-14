@@ -9,5 +9,4 @@ export enum EthernetProtocol {
     MCProtocol = 13
 }
 
-
 export type ProtocolType = SerialProtocol | EthernetProtocol;
